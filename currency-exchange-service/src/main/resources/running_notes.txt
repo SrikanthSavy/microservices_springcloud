@@ -1,0 +1,31 @@
+
+Currency-Exchange- MicroService : 8000,8001
+===============================
+http://localhost:8000/currency-exchange/from/USD/to/INR
+http://localhost:8001/currency-exchange/from/USD/to/INR
+
+Response Structure
+{
+   "id":10001,
+   "from":"USD",
+   "to":"INR",
+   "conversionMultiple":65.00,
+   "environment":"8000 instance-id"
+}
+
+
+
+
+
+
+Help for Debugging Problems:
+Here's the code backup at the end of Step 13: https://github.com/in28minutes/spring-microservices-v3/blob/main/03.microservices/step13.md
+
+Step by Step changes are detailed here: https://github.com/in28minutes/spring-microservices-v3/blob/main/03.microservices/01-step-by-step-changes/readme.md#step-13
+
+
+
+Two Recommended Activities:
+Activity - 1 : Explore other backups for this section (Steps 08,10,13,15,21,25,29, final) - https://github.com/in28minutes/spring-microservices-v3/tree/main/03.microservices
+
+Activity - 2 : Get Familiar with the structure of Step by Step changes file - https://github.com/in28minutes/spring-microservices-v3/blob/main/03.microservices/01-step-by-step-changes/readme.md#step-13
