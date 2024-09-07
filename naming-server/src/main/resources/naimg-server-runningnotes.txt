@@ -1,0 +1,17 @@
+#Eureka NAming Server
+
+spring.application.name=naming-server
+server.port=8761
+##We dont this naming server to register itself
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+
+
+
+Give these settings a try individually in application.properties of all microservices (currency-exchange, currency-conversion) 
+to see if they help
+
+eureka.instance.prefer-ip-address=true
+OR
+
+eureka.instance.hostname=localhost
